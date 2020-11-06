@@ -24,6 +24,16 @@
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Pacifico|Cardo" rel="stylesheet" type="text/css">
 		<script src="./script.js" defer></script>
 	</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(window).on("load",function(){
+   setTimeout(function(){
+     $(".loader-wrapper").fadeOut('slow', function () {
+    });
+  },850); // set the time here
+});
+
+</script>
 	<div class="loader-wrapper" style="display: none;">
           <svg width="200" height="200" viewBox="0 0 40 60">
               <polygon class="triangle" fill="none" stroke="#fff" stroke-width="1" points="16,1 32,32 1,32"></polygon>
@@ -32,7 +42,7 @@
         </div>
     <div class="container">
             <nav class="navbar">
-            <div class="brand-title unselectable">VENUE = SKID DEV 🤣</div> 
+            <div class="brand-title unselectable">VENUE 💋</div> 
                 <a href="#" class="toggle-button">
                     <span class="bar"></span>
                     <span class="bar"></span>
