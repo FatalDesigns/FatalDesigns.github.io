@@ -24,22 +24,21 @@
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Pacifico|Cardo" rel="stylesheet" type="text/css">
 		<script src="./script.js" defer></script>
 	</head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-$(window).on("load",function(){
-   setTimeout(function(){
-     $(".loader-wrapper").fadeOut('slow', function () {
-    });
-  },850); // set the time here
-});
-
-</script>
 	<div class="loader-wrapper" style="display: none;">
           <svg width="200" height="200" viewBox="0 0 40 60">
               <polygon class="triangle" fill="none" stroke="#fff" stroke-width="1" points="16,1 32,32 1,32"></polygon>
               <text class="loading" x="0" y="45" fill="#fff">Loading...</text>
           </svg>
         </div>
+<script>
+$(window).on("load",function(){
+   setTimeout(function(){
+     $(".loader-wrapper").fadeOut('slow', function () {
+    });
+  },900);
+});
+</script>
+	
     <div class="container">
             <nav class="navbar">
             <div class="brand-title unselectable">VENUE 💋</div> 
@@ -78,7 +77,7 @@ $(window).on("load",function(){
                         <div class="play-btn">
                             <div class="play-btn-inner" onmousedown="playPause()"><i class="fa fa-play"><script></script></i>
                             </div>
-                            <small><b>JUST SOME RANDOM LIT MUSIC 👀🎵</b></small>
+                            <small><b>MUSIC FOR THE RANDOS 👀🎵</b></small>
                         </div>
                 </div>
              <div class="app-picture unselectable">
